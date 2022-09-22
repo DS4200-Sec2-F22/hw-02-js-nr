@@ -1,0 +1,61 @@
+body{
+	font-family:  Arial;
+}
+
+tr:nth-child(1)
+{
+  background-color: skyblue;
+  color:white;
+}
+
+table{
+	margin-left: auto;
+ 	margin-right: auto;
+ 	width: 100%
+}
+
+h1{
+	margin:  auto;
+	text-align: center;
+}
+
+img{
+	width: 100%;
+}
+
+.flex_container{
+  display: flex; /* or inline-flex */
+  align-items: center;
+  justify-content: center;
+}
+
+rect
+{
+  		
+  		fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)
+}
+
+
+rect:hover
+{
+  		fill: red;
+
+}
+
+circle
+{
+
+		fill: yellow;
+		fill-opacity:  0.5;
+		stroke-width:3;
+		stroke: yellow;
+}
+
+
+circle:hover 
+{
+
+		border: green 50px;
+		stroke-width:3;
+		stroke: green;
+}
