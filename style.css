@@ -2,19 +2,31 @@ body{
 	font-family:  Arial;
 }
 
-tr:nth-child(1)
-{
-  background-color: skyblue;
-  color:white;
-}
-
 table{
 	margin-left: auto;
  	margin-right: auto;
- 	width: 100%
+ 	width: 100%;
+ 	text-align: center;
+
 }
 
-h1{
+th {
+  background-color: skyblue;
+}
+
+th, td {
+	border-bottom: 1px solid;
+}
+
+
+
+
+h1 {
+	margin:  auto;
+	text-align: center;
+}
+
+h2 {
 	margin:  auto;
 	text-align: center;
 }
@@ -23,39 +35,45 @@ img{
 	width: 100%;
 }
 
-.flex_container{
-  display: flex; /* or inline-flex */
+.flex_container {
+  display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
 }
 
+#decoration {
+	display: flex;
+	margin: auto;
+	width: 100%;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+
 rect
 {
-  		
-  		fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)
+  		fill:royalblue;
+  		stroke-width:3;
+  		stroke:rgb(0,0,0)
 }
 
 
 rect:hover
 {
-  		fill: red;
+  		fill: steelblue;
 
 }
 
 circle
 {
-
-		fill: yellow;
+		fill: dodgerblue;
 		fill-opacity:  0.5;
-		stroke-width:3;
-		stroke: yellow;
 }
 
 
 circle:hover 
 {
-
-		border: green 50px;
 		stroke-width:3;
-		stroke: green;
+		stroke: royalblue;
 }
